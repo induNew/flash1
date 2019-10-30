@@ -11,5 +11,6 @@ public interface IAutoConst {
 
 	String SHEET_NAME = "Sheet1";
 	String CONFIG_PATH = "./config.properties";
-
+	String XL_PATH1 = "C:\\Users\\HP\\git\\FrameWork\\Frameworks\\Excel\\ResultD.xlsx";
+	String SHEET_NAME1 = "Sheet1";
 }

@@ -56,12 +56,26 @@ public class BaseTest implements IAutoConst {
 		System.out.println(result.getStatus());
 		if (result.getStatus() == 1) {
 			Reporter.log("test case pass",true);
-
+			try {
+			Excel.setData(testCase, "pass", 0,0,SHEET_NAME1,XL_PATH1);
+			}
+			catch(Throwable e)
+			{
+				System.out.println("file not found");
+			}
 		}
 
 		else {
 			Reporter.log("test case fail",true);
 			GetPhoto.getSnap(driver, testCase);
+			try {
+				Excel.setData(testCase, "fail", 0,0,SHEET_NAME1,XL_PATH1);
+				}
+				catch(Throwable e)
+				{
+					System.out.println("file not found");
+				}
+
 		}
 		driver.quit();
 

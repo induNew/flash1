@@ -6,15 +6,4 @@
       <class name="com.testpom.TestLogin"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.testpom.TestLogin">
-        <methods>
-          <include name="validLogin"/>
-          <include name="setUp"/>
-          <include name="closeApp"/>
-        </methods>
-      </class> <!-- com.testpom.TestLogin -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

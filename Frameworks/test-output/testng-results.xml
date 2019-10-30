@@ -1,74 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Home Page is not displayed]]>
+      <![CDATA[HomePage is Displayed]]>
     </line>
     <line>
-      <![CDATA[test case fail]]>
+      <![CDATA[test case pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67292" started-at="2019-10-30T06:56:06Z" finished-at="2019-10-30T06:57:14Z">
+  <suite name="Default suite" duration-ms="31646" started-at="2019-10-30T10:38:00Z" finished-at="2019-10-30T10:38:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67292" started-at="2019-10-30T06:56:06Z" finished-at="2019-10-30T06:57:14Z">
+    <test name="Default test" duration-ms="31646" started-at="2019-10-30T10:38:00Z" finished-at="2019-10-30T10:38:32Z">
       <class name="com.testpom.TestLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testpom.TestLogin@35851384]" name="setUp" is-config="true" duration-ms="60226" started-at="2019-10-30T12:26:06Z" finished-at="2019-10-30T12:27:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testpom.TestLogin@35851384]" name="setUp" is-config="true" duration-ms="24683" started-at="2019-10-30T16:08:00Z" finished-at="2019-10-30T16:08:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validLogin()[pri:0, instance:com.testpom.TestLogin@35851384]" name="validLogin" duration-ms="5926" started-at="2019-10-30T12:27:07Z" finished-at="2019-10-30T12:27:12Z">
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.fail(Assert.java:95)
-	at com.pom.EnterTimeTrack.verifyHomePageIsDisplayed(EnterTimeTrack.java:68)
-	at com.testpom.TestLogin.validLogin(TestLogin.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.testpom.TestLogin@35851384]" name="validLogin" duration-ms="6167" started-at="2019-10-30T16:08:25Z" finished-at="2019-10-30T16:08:31Z">
           <reporter-output>
             <line>
-              <![CDATA[Home Page is not displayed]]>
+              <![CDATA[HomePage is Displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.testpom.TestLogin@35851384]" name="closeApp" is-config="true" duration-ms="1122" started-at="2019-10-30T12:27:12Z" finished-at="2019-10-30T12:27:14Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.testpom.TestLogin@35851384]" name="closeApp" is-config="true" duration-ms="785" started-at="2019-10-30T16:08:31Z" finished-at="2019-10-30T16:08:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validLogin status=FAILURE method=TestLogin.validLogin()[pri:0, instance:com.testpom.TestLogin@35851384] output=Home Page is not displayed]]]>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TestLogin.validLogin()[pri:0, instance:com.testpom.TestLogin@35851384] output=HomePage is Displayed]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[test case fail]]>
+              <![CDATA[test case pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->

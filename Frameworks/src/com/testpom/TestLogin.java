@@ -32,10 +32,10 @@ import com.pom.LoginPage;
 public class TestLogin extends BaseTest {
 	@Test
 	public static void validLogin() throws EncryptedDocumentException, InvalidFormatException {
-		String un = Excel.getData(XL_PATH, SHEET_NAME, 2, 0);
-		String pwd = Excel.getData(XL_PATH, SHEET_NAME, 2, 1);
+		String un = Excel.getData(XL_PATH, SHEET_NAME, 1, 0);
+		String pwd = Excel.getData(XL_PATH, SHEET_NAME, 1, 1);
 		String title = Excel.getData(XL_PATH, SHEET_NAME, 1, 2);
-		// Excel.storeValue(XL_PATH,SHEET_NAME, 0, 3, "Status");
+	
 		System.out.println(un + " " + pwd + " " + title);
 
 		LoginPage l = new LoginPage(driver);
