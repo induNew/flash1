@@ -24,12 +24,12 @@ public class LoginPage {
 	}
 	
 	public void sendUsername(String ss) {
-		userName.sendKeys();
+		userName.sendKeys(ss);
 		
 	}
 	
 	public void sendPwd(String ss1) {
-		passWord.click();
+		passWord.sendKeys(ss1);
 		
 	}
 	
@@ -38,6 +38,7 @@ public class LoginPage {
 		click1.click();
 		
 	}
+	
 	
 	
 	

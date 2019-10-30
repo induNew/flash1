@@ -18,6 +18,5 @@
 	<classpathentry kind="lib" path="poi/poi-ooxml-schemas-3.17.jar"/>
 	<classpathentry kind="lib" path="poi/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="lib" path="poi/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="lib" path="testng.xml"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
