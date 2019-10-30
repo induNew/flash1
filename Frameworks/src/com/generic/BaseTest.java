@@ -37,14 +37,14 @@ public class BaseTest implements IAutoConst{
 		{
 			driver=new FirefoxDriver();
 			System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
-			driver.get("");
+			driver.get("url");
 			
 		}
 		else if(b_name.equalsIgnoreCase("chrome"))
 		{
 			driver=new ChromeDriver();
 			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-			
+			driver.get("url");
 		}
 		
 	}
@@ -74,4 +74,4 @@ public class BaseTest implements IAutoConst{
 	
 	
 	
-}
+

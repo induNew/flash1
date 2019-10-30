@@ -44,7 +44,7 @@ public class TestLogin extends BaseTest
 	l.sendUsername(un);
 	l.sendPwd(pwd);
 	l.LoginButton();
-//	l.getTitle();
+	l.getTitle(title);
 	
 	EnterTimeTrack eTT = new EnterTimeTrack(driver);
 	eTT.verifyHomePageIsDisplayed(driver, 5, title);
